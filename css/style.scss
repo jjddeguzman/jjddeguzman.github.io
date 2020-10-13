@@ -50,10 +50,11 @@ body{
 
 .btn-get-to-know{
     background-color: $main-color;
+    opacity: 80%;
 }
 
 .btn-get-to-know:hover{
-    opacity: 0.8;
+    opacity: 1;
     transition: 0.4s;
     color: white;
 }

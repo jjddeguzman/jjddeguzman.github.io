@@ -41,10 +41,11 @@ body {
 
 .btn-get-to-know {
   background-color: #009688;
+  opacity: 80%;
 }
 
 .btn-get-to-know:hover {
-  opacity: 0.8;
+  opacity: 1;
   -webkit-transition: 0.4s;
   transition: 0.4s;
   color: white;
