@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+.main-logo {
+  width: 80%;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+}
+
+.navbar {
+  -webkit-box-shadow: 0 4px 2px -2px black;
+          box-shadow: 0 4px 2px -2px black;
+}
+/*# sourceMappingURL=style.css.map */
