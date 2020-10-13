@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
 .main-logo {
-  width: 80%;
+  width: 82%;
 }
 
 body {
@@ -10,5 +10,56 @@ body {
 
 .nav {
   background-color: #212529;
+}
+
+.text-main {
+  color: #009688;
+}
+
+.left, .right {
+  margin-top: 5rem;
+}
+
+.landing-programmer {
+  width: 83%;
+}
+
+.main-heading {
+  width: 95%;
+}
+
+.second-heading {
+  color: #6C757D;
+  width: 80%;
+}
+
+.btn {
+  color: white;
+  font-size: .9rem;
+  padding: 1rem 2rem;
+}
+
+.btn-get-to-know {
+  background-color: #009688;
+}
+
+.btn-get-to-know:hover {
+  opacity: 0.8;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  color: white;
+}
+
+.btn-reach-me-out {
+  background-color: transparent;
+  border: 1px solid #009688;
+  color: #009688;
+}
+
+.btn-reach-me-out:hover {
+  background-color: #009688;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */

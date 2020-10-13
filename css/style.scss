@@ -2,9 +2,10 @@
 
 // Colors
 $body: #212529;
+$main-color: #009688;
 
 .main-logo{
-    width: 80%;
+    width: 82%;
 }
 
 body{
@@ -14,5 +15,57 @@ body{
 
 .nav{
     background-color: $body;
+}
 
+.text-main{
+    color: $main-color;
+}
+
+//Landing Section
+.left, .right{
+    margin-top: 5rem;
+}
+
+.landing-programmer{
+    width: 83%;
+
+}
+
+.main-heading{
+    width: 95%;
+}
+
+.second-heading{
+    color: #6C757D;
+    width: 80%;
+}
+
+//Buttons
+
+.btn{
+    color: white;
+    font-size: .9rem;
+    padding: 1rem 2rem;
+}
+
+.btn-get-to-know{
+    background-color: $main-color;
+}
+
+.btn-get-to-know:hover{
+    opacity: 0.8;
+    transition: 0.4s;
+    color: white;
+}
+
+.btn-reach-me-out{
+    background-color: transparent;
+    border: 1px solid $main-color;
+    color: $main-color;
+}
+
+.btn-reach-me-out:hover{
+    background-color: $main-color;
+    transition: 0.4s;
+    color: white;
 }
