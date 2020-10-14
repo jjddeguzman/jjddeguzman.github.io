@@ -1,4 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+@media (min-width: 1920px) {
+  .container {
+    max-width: 1500px;
+  }
+}
+
 .main-logo {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -52,6 +58,12 @@ body {
   }
 }
 
+@media (min-width: 1920px) {
+  .landing-column {
+    margin-top: 11rem;
+  }
+}
+
 @media (min-width: 1024px) {
   .right {
     text-align: right;
@@ -72,6 +84,12 @@ body {
 @media (min-width: 1366px) {
   .landing-programmer-small {
     width: 180%;
+  }
+}
+
+@media (min-width: 1920px) {
+  .landing-programmer-small {
+    width: 220%;
   }
 }
 
@@ -108,11 +126,24 @@ body {
   }
 }
 
+@media (min-width: 1920px) {
+  .main-heading {
+    font-size: 3.5rem;
+    max-width: 75%;
+  }
+}
+
 .first-heading {
   font-size: 1rem;
   padding-top: 2rem;
   color: whitesmoke;
   opacity: 80%;
+}
+
+@media (min-width: 1920px) {
+  .first-heading {
+    font-size: 1.5rem;
+  }
 }
 
 .second-heading {
@@ -195,6 +226,12 @@ body {
   .loading-svg {
     -webkit-animation: move 1s infinite alternate;
             animation: move 1s infinite alternate;
+  }
+}
+
+@media (min-width: 1920px) {
+  .loading-svg {
+    width: 2.2%;
   }
 }
 

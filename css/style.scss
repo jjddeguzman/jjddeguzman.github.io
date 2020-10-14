@@ -2,6 +2,7 @@
 
 $desktop: 1024px;
 $md-desktop: 1366px;
+$lg-desktop: 1920px;
 
 @mixin desktop {
     @media(min-width: #{$desktop}){
@@ -12,6 +13,18 @@ $md-desktop: 1366px;
 @mixin md-desktop {
     @media(min-width: #{$md-desktop}){
         @content;
+    }
+}
+
+@mixin lg-desktop {
+    @media(min-width: #{$lg-desktop}){
+        @content;
+    }
+}
+
+.container{
+    @include lg-desktop{
+        max-width: 1500px;
     }
 }
 
@@ -56,6 +69,10 @@ body{
     @include md-desktop{
         margin-top: 6rem;
     }
+
+    @include lg-desktop{
+        margin-top: 11rem;
+    }
 }
 
 .right{
@@ -74,6 +91,10 @@ body{
 
     @include md-desktop{
         width: 180%;
+    }
+
+    @include lg-desktop{
+        width: 220%;
     }
 }
 
@@ -101,6 +122,11 @@ body{
         font-size: 2.5rem;
         max-width: 70%
     }
+
+    @include lg-desktop{
+        font-size: 3.5rem;
+        max-width: 75%
+    }
 }
 
 .first-heading{
@@ -109,6 +135,9 @@ body{
     color: whitesmoke;
     opacity: 80%;
     
+    @include lg-desktop{
+        font-size: 1.5rem;
+    }
 }
 
 .second-heading{
@@ -180,6 +209,10 @@ body{
 .loading-svg{
     @include desktop{
         animation: move 1s infinite alternate;
+    }
+
+    @include lg-desktop{
+        width: 2.2%;
     }
 }
 
