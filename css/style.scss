@@ -5,13 +5,17 @@ $body: #212529;
 $main-color: #009688;
 
 .main-logo{
-    width: 82%;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
 }
 
 body{
     font-family: 'Rubik', sans-serif;
     background-color: $body;
 }
+
+//Landing Section
 
 .nav{
     background-color: $body;
@@ -21,48 +25,65 @@ body{
     color: $main-color;
 }
 
-//Landing Section
-.left, .right{
-    margin-top: 5rem;
+.landing-column{
+    text-align: center;
+    color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+    align-items: center;
+    justify-content: center;
 }
 
 .landing-programmer{
-    width: 83%;
+    width: 50%;
+    margin-top: 3rem;
+}
 
+.loading{
+    display: none;
 }
 
 .main-heading{
-    width: 95%;
+    font-size: 1.6rem;
+    padding: 0;
+}
+
+.first-heading{
+    font-size: 1rem;
+    padding-top: 2rem;
 }
 
 .second-heading{
     color: #6C757D;
-    width: 80%;
+    font-size: .8rem;
 }
 
-//Buttons
+// Buttons
 
 .btn{
     color: white;
-    font-size: .9rem;
-    padding: 1rem 2rem;
+    font-size: 1rem;
 }
 
 .btn-get-to-know{
     background-color: $main-color;
     opacity: 80%;
-}
-
-.btn-get-to-know:hover{
-    opacity: 1;
-    transition: 0.4s;
-    color: white;
+    padding: 1rem 6.6rem;
 }
 
 .btn-reach-me-out{
     background-color: transparent;
     border: 1px solid $main-color;
     color: $main-color;
+    margin-top: 1rem;
+    padding: 1rem 7rem;
+}
+
+
+.btn-get-to-know:hover{
+    opacity: 1;
+    transition: 0.4s;
+    color: white;
 }
 
 .btn-reach-me-out:hover{

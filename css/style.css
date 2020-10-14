@@ -1,6 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
 .main-logo {
-  width: 82%;
+  width: 70%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 body {
@@ -16,32 +22,60 @@ body {
   color: #009688;
 }
 
-.left, .right {
-  margin-top: 5rem;
+.landing-column {
+  text-align: center;
+  color: white;
+  margin-top: auto;
+  margin-bottom: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .landing-programmer {
-  width: 83%;
+  width: 50%;
+  margin-top: 3rem;
+}
+
+.loading {
+  display: none;
 }
 
 .main-heading {
-  width: 95%;
+  font-size: 1.6rem;
+  padding: 0;
+}
+
+.first-heading {
+  font-size: 1rem;
+  padding-top: 2rem;
 }
 
 .second-heading {
   color: #6C757D;
-  width: 80%;
+  font-size: .8rem;
 }
 
 .btn {
   color: white;
-  font-size: .9rem;
-  padding: 1rem 2rem;
+  font-size: 1rem;
 }
 
 .btn-get-to-know {
   background-color: #009688;
   opacity: 80%;
+  padding: 1rem 6.6rem;
+}
+
+.btn-reach-me-out {
+  background-color: transparent;
+  border: 1px solid #009688;
+  color: #009688;
+  margin-top: 1rem;
+  padding: 1rem 7rem;
 }
 
 .btn-get-to-know:hover {
@@ -49,12 +83,6 @@ body {
   -webkit-transition: 0.4s;
   transition: 0.4s;
   color: white;
-}
-
-.btn-reach-me-out {
-  background-color: transparent;
-  border: 1px solid #009688;
-  color: #009688;
 }
 
 .btn-reach-me-out:hover {
