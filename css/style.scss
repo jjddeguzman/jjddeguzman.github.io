@@ -1,13 +1,227 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
+$desktop: 1024px;
+$md-desktop: 1366px;
+$lg-desktop: 1920px;
+
+@mixin desktop {
+    @media(min-width: #{$desktop}){
+        @content;
+    }
+}
+
+@mixin md-desktop {
+    @media(min-width: #{$md-desktop}){
+        @content;
+    }
+}
+
+@mixin lg-desktop {
+    @media(min-width: #{$lg-desktop}){
+        @content;
+    }
+}
+
+.container{
+    @include lg-desktop{
+        max-width: 1500px;
+    }
+}
+
+// Colors
+$body: #212529;
+$main-color: #009688;
+
 .main-logo{
-    width: 80%;
+    align-items: center;
+    justify-content: center;
 }
 
 body{
     font-family: 'Rubik', sans-serif;
+    background-color: $body;
 }
 
-.navbar{
-    box-shadow: 0 4px 2px -2px rgba(0,0,0,1);
+//Landing Section
+
+.nav{
+    background-color: $body;
+}
+
+.text-main{
+    color: $main-color;
+}
+
+.landing-column{
+    text-align: center;
+    color: white;
+    margin-top: 1rem;
+    margin-bottom: auto;
+    align-items: center;
+    justify-content: center;
+    
+    @include desktop{
+        display: flex;
+        margin-top: 7rem;
+        justify-content: space-between;
+    }
+
+    @include md-desktop{
+        margin-top: 6rem;
+    }
+
+    @include lg-desktop{
+        margin-top: 11rem;
+    }
+}
+
+.right{
+    @include desktop{
+        text-align: right;
+        padding-right: 2rem;
+    }
+}
+
+.landing-programmer-small{
+    width: 80%;
+
+    @include desktop{
+        width: 200%;
+    }
+
+    @include md-desktop{
+        width: 180%;
+    }
+
+    @include lg-desktop{
+        width: 220%;
+    }
+}
+
+.loading{
+    display: none;
+
+    @include desktop{
+        display: block;
+       align-items: center;
+    }
+}
+
+.main-heading{
+    font-size: 1.6rem;
+    padding: 0;
+
+    @include desktop{
+        font-size: 3rem;
+        max-width: 70%;
+        margin-left: auto;
+
+    }
+
+    @include md-desktop{
+        font-size: 2.5rem;
+        max-width: 70%
+    }
+
+    @include lg-desktop{
+        font-size: 3.5rem;
+        max-width: 75%
+    }
+}
+
+.first-heading{
+    font-size: 1rem;
+    padding-top: 2rem;
+    color: whitesmoke;
+    opacity: 80%;
+    
+    @include lg-desktop{
+        font-size: 1.5rem;
+    }
+}
+
+.second-heading{
+    color: #6C757D;
+    font-size: .8rem;
+}
+
+// Buttons
+
+.button-flex{
+    @include desktop{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1.5rem;
+    }
+}
+
+.btn{
+    color: white;
+    font-size: 1rem;
+    width: 100%;
+    height: 4rem;
+
+    @include desktop{
+        width: 20%;
+        font-size: 1rem;
+    }
+
+    @include md-desktop{
+        height: 3.5rem;
+    }
+}
+
+.btn-get-to-know{
+    background-color: $main-color;
+    opacity: 80%;
+
+    @include desktop{
+        margin-left: auto;
+        margin-right: 1rem;
+    }
+}
+
+.btn-reach-me-out{
+    background-color: transparent;
+    border: 1px solid $main-color;
+    color: $main-color;
+    margin-top: 1rem;
+    // padding: 1rem 7rem;
+    @include desktop{
+        margin-top: 0;
+
+    }
+}
+
+
+.btn-get-to-know:hover{
+    opacity: 1;
+    transition: 0.4s;
+    color: white;
+}
+
+.btn-reach-me-out:hover{
+    background-color: $main-color;
+    transition: 0.4s;
+    color: white;
+}
+
+.loading-svg{
+    @include desktop{
+        animation: move 1s infinite alternate;
+    }
+
+    @include lg-desktop{
+        width: 2.2%;
+    }
+}
+
+@keyframes move{
+    0% {
+        transform: translateY(0px) ;
+}
+
+    100%{
+        transform: translateY(20px) ;
+    }
 }

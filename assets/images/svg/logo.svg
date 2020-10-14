@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="104" height="34" viewBox="0 0 104 34">
+  <g id="logo" transform="translate(-1162 -451)">
+    <path id="Path_18" data-name="Path 18" d="M80.127,143.376h-.552v5.439a.575.575,0,1,1-1.15,0v-5.439h-.552a4.543,4.543,0,0,0-4.543,4.543v3.339a.409.409,0,0,0,.409.409H84.261a.409.409,0,0,0,.409-.409v-3.339A4.543,4.543,0,0,0,80.127,143.376Z" transform="translate(1147.108 320.429)" fill="#009688"/>
+    <path id="Path_19" data-name="Path 19" d="M215.52.558a.575.575,0,0,0-1.15.032,2.105,2.105,0,0,1-.62,1.772,3.409,3.409,0,0,1-2.489.4l-.02,0a4.051,4.051,0,0,0-3.56.666,3.3,3.3,0,0,0-1.023,2.055h1.15a1.946,1.946,0,0,1,.636-1.194,3.063,3.063,0,0,1,2.58-.4,4.491,4.491,0,0,0,3.456-.634A3.179,3.179,0,0,0,215.52.558Z" transform="translate(1019.425 458.328)" fill="#009688"/>
+    <path id="Path_20" data-name="Path 20" d="M84.871,390.886a.387.387,0,0,0-.387-.386H73.936a.386.386,0,0,0-.386.38s0,0,0,.007a.38.38,0,0,0,.005.059,4.543,4.543,0,0,0,4.53,4.2h2.253a4.544,4.544,0,0,0,4.531-4.209.389.389,0,0,0,0-.046Z" transform="translate(1146.898 82.747)" fill="#009688"/>
+    <text id="jeriC" transform="translate(1163 478)" fill="#fff" font-size="26" font-family="Quicksand-Bold, Quicksand" font-weight="700"><tspan x="0" y="0">jeriC</tspan></text>
+    <text id="de" transform="translate(1233 478)" fill="#fff" font-size="27" font-family="Quicksand-Bold, Quicksand" font-weight="700"><tspan x="0" y="0">de</tspan></text>
+  </g>
+</svg>
