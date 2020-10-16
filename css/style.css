@@ -274,7 +274,47 @@ body {
 
 @media (min-width: 1024px) {
   #get-to-know-me {
-    display: none;
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .main {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "a b";
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+}
+
+@media (min-width: 1024px) {
+  .left {
+    grid-area: a;
+    text-align: left;
+  }
+}
+
+@media (min-width: 1366px) {
+  .left {
+    margin: auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .right {
+    grid-area: b;
+  }
+}
+
+@media (min-width: 1366px) {
+  .right {
+    margin-top: auto;
+    margin-bottom: auto;
   }
 }
 
@@ -282,6 +322,12 @@ body {
   color: #009688;
   margin-bottom: 1.5rem;
   font-size: 2rem;
+}
+
+@media (min-width: 1366px) {
+  .my-name {
+    font-size: 2.5rem;
+  }
 }
 
 .profile-heading {
@@ -292,5 +338,23 @@ body {
 .profile-body {
   font-size: .9rem;
   line-height: 2.5rem;
+}
+
+@media (min-width: 1024px) {
+  .profile-body {
+    width: 90%;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 1366px) {
+  .profile-body {
+    line-height: 3.5rem;
+    width: 90%;
+  }
+}
+
+.profile-pic {
+  width: 100%;
 }
 /*# sourceMappingURL=style.css.map */

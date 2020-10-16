@@ -241,9 +241,46 @@ body{
 #get-to-know-me{
     margin-top: 10rem;
     text-align: center;
-
+    
     @include desktop{
-        display: none;
+        padding-top: 5rem;
+        padding-bottom: 10rem;
+    }
+
+
+
+}
+
+
+.main{
+    @include desktop{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "a b";
+        align-items: flex-start;
+    }    
+}
+
+.left{
+    @include desktop{
+        grid-area: a;
+        text-align: left;
+    }
+
+    @include md-desktop{
+        margin: auto;
+
+    }
+}
+
+.right{
+    @include desktop{
+        grid-area: b; 
+    }
+
+    @include md-desktop{
+        margin-top: auto;
+        margin-bottom: auto;
     }
 }
 
@@ -251,14 +288,34 @@ body{
     color: $main-color;
     margin-bottom: 1.5rem;
     font-size: 2rem;
+
+    @include md-desktop{
+        font-size: 2.5rem;
+    }
 }
 
 .profile-heading{
     margin-top: 1.5rem;
     margin-bottom: 0;
+    
 }
 
 .profile-body{
     font-size: .9rem;
     line-height: 2.5rem;
+
+    @include desktop{
+        width: 90%;
+        margin-right: auto;
+    }
+
+    @include md-desktop{
+        line-height: 3.5rem;
+        width: 90%;
+    }
+}
+
+.profile-pic{
+width: 100%;
+    
 }
