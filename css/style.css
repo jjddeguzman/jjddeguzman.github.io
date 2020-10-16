@@ -5,6 +5,16 @@
   }
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
 .main-logo {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -255,5 +265,26 @@ body {
     -webkit-transform: translateY(20px);
             transform: translateY(20px);
   }
+}
+
+#get-to-know-me {
+  margin-top: 10rem;
+  text-align: center;
+}
+
+.my-name {
+  color: #009688;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+}
+
+.profile-heading {
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+}
+
+.profile-body {
+  font-size: .9rem;
+  line-height: 2.5rem;
 }
 /*# sourceMappingURL=style.css.map */
