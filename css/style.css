@@ -272,6 +272,12 @@ body {
   text-align: center;
 }
 
+@media (min-width: 1024px) {
+  #get-to-know-me {
+    display: none;
+  }
+}
+
 .my-name {
   color: #009688;
   margin-bottom: 1.5rem;

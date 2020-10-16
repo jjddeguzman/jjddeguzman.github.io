@@ -241,6 +241,10 @@ body{
 #get-to-know-me{
     margin-top: 10rem;
     text-align: center;
+
+    @include desktop{
+        display: none;
+    }
 }
 
 .my-name{
