@@ -6,14 +6,25 @@ body {
   font-family: 'Rubik', sans-serif;
   color: white;
   padding: 0;
+  height: 100%;
+
   margin: 0;
+  padding: 0;
+  background-image: url('../../../assets/coding-background.png');
+  background-size: cover;
+  background-attachment: fixed; /* Optional - prevents scrolling */
+  background-position: center;
+  background-repeat: no-repeat;
 }
+
+
 
 /* rgb(34,139,34) */
 
 .main {
-    background: url('../../../assets/coding-background.png');
-    opacity: 0.9;
+    /* background: url('../../../assets/coding-background.png'); */
+    /* opacity: 0.9;
+    height: 100vh; */
   }
   
   .logo{
