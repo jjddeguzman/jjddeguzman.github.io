@@ -5,99 +5,143 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>jrcdgzmn.dev</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        .blue-link {
+            color: #3b82f6; /* Tailwind's blue-500 */
+        }
+        .blue-link:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
-<body class="bg-gray-100">
-    <div class="container mx-auto px-4 py-10">
-        <header class="text-center mb-8">
-            <h1 class="text-3xl font-semibold text-gray-800">Jerico James D. De Guzman</h1>
-            <p class="text-gray-600">Software Engineer</p>
+<body class="bg-gray-100 text-gray-800 font-sans">
+    <div class="container mx-auto px-6 py-12">
+        <header class="text-center mb-10">
+            <h1 class="text-4xl font-semibold text-gray-900">Jerico James D. De Guzman</h1>
+            <p class="text-lg text-gray-600">Software Engineer</p>
         </header>
 
-        <section class="mb-8">
-            <h2 class="text-2xl font-semibold text-gray-700 mb-4">About Me</h2>
-            <div class="bg-white rounded-lg shadow-md p-6">
-                <p class="text-gray-600 blue-link">
+        <section class="mb-12">
+            <h2 class="text-2xl font-semibold text-gray-900 mb-6">About Me</h2>
+            <div class="bg-white rounded-lg shadow-md p-8">
+                <p class="text-gray-700 leading-relaxed">
                     Detail-oriented software engineer with 5+ years of experience in software development and a strong command of front-end development. Experienced in Angular, NgRx state management, and Jasmine unit testing for building and maintaining web applications. Skilled in responsive design and agile collaboration, seeking to contribute technical expertise to innovative solutions.
                 </p>
-                <p class="text-gray-600 blue-link mt-4">
+                <p class="text-gray-700 leading-relaxed mt-6">
                     Beyond the code, I'm an avid advocate for productivity and efficiency, always seeking innovative ways to streamline workflows and optimize output. Embracing tools like Notion, I orchestrate my ideas, projects, and goals into a harmonious symphony of productivity. There's something profoundly satisfying about organizing chaos into a structured, actionable plan.
                 </p>
             </div>
         </section>
 
-        <section class="mb-8">
-            <h2 class="text-2xl font-semibold text-gray-700 mb-4">Experience</h2>
-            <div class="space-y-6">
-                <div class="bg-white rounded-lg shadow-md p-6">
-                        <h3 class="text-xl font-semibold text-gray-800 mb-2 blue-link">Advanced App Engineering Senior Analyst | Accenture | December 2023 - Present</h3>
-                        <ul class="list-disc list-inside text-gray-600 blue-link">
-                            <li>Led the front-end development and deployment of multiple key features for a strategic "Diamond Client" project, utilizing HTML, CSS, TypeScript, and Angular, resulting in a significant enhancement of the application's functionality.</li>
-                            <li>Collaborated closely with designers, leveraging Figma specifications to translate UI/UX designs into pixel-perfect and user-friendly Angular components.</li>
-                            <li>Implemented and maintained comprehensive unit tests using Angular Jasmine to ensure the reliability and quality of Angular components and services within the "Diamond Client" project.</li>
-                            <li>Utilized NgRx for effective state management within the Angular application for the "Diamond Client," contributing to a more predictable and maintainable codebase.</li>
-                            <li>Proactively identified, debugged, and resolved critical front-end issues, contributing to a noticeable reduction in the</li>
-                        </ul>
-                    </div>
-                    <div class="bg-white rounded-lg shadow-md p-6">
-                        <h3 class="text-xl font-semibold text-gray-800 mb-2 blue-link">Senior Software Engineer | Yondu, Inc. | April 2022 - December 2023 (1 year 9 months)</h3>
-                        <ul class="list-disc list-inside text-gray-600 blue-link">
-                            <li>Led the front-end development on a discreet government project in Singapore, utilizing Angular, HTML, CSS, and TypeScript to build and enhance critical user interfaces.</li>
-                            <li>Ensured the responsiveness and optimal user experience of web applications across various devices and screen sizes through meticulous application of responsive web design principles.</li>
-                            <li>Implemented and maintained comprehensive unit tests using Angular Jasmine to ensure the reliability and quality of Angular components and services.</li>
-                            <li>Utilized NgRx for effective state management within the Angular application, contributing to a more predictable and maintainable codebase.</li>
-                            <li>Collaborated effectively with cross-functional teams, including designers and back-end developers, to deliver high-quality software solutions within agile development methodologies.</li>
-                            <li>Actively participated in code reviews, providing constructive feedback to ensure code quality, maintainability, and adherence to best practices.</li>
-                        </ul>
-                    </div>
-                    <div class="bg-white rounded-lg shadow-md p-6">
-                        <h3 class="text-xl font-semibold text-gray-800 mb-2 blue-link">Software Developer | Strong Will IT Solutions | June 2020 - January 2022 (1 year 8 months)</h3>
-                        <ul class="list-disc list-inside text-gray-600 blue-link">
-                            <li>As a Junior Software Developer, contributed to the development of a web application for Home Care providers focused on establishing effective telemonitoring programs using Angular.</li>
-                            <li>Assisted in building features to facilitate seamless communication and data sharing between patients and doctors within the Home Care application.</li>
-                            <li>Implemented front-end components and user interfaces to support remote patient monitoring functionalities.</li>
-                            <li>Utilized Git for version control and collaboration within the development team.</li>
-                            <li>Effectively communicated a complex, time-consuming bug to a senior developer, providing a clear overview of troubleshooting steps taken and unsuccessful attempts, facilitating a more efficient resolution.</li>
-                        </ul>
-                    </div>
+        <section class="mb-12">
+            <h2 class="text-2xl font-semibold text-gray-900 mb-6">Experience</h2>
+            <div class="space-y-8">
+                <div class="bg-white rounded-lg shadow-md p-8">
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Advanced App Engineering Senior Analyst | Accenture</h3>
+                    <p class="text-gray-600 mb-4 text-sm">December 2023 - Present</p>
+                    <ul class="list-disc list-inside text-gray-700 leading-relaxed">
+                        <li>Led front-end development and deployment for key features, enhancing application functionality.</li>
+                        <li>Collaborated with designers, translating UI/UX designs into Angular components.</li>
+                        <li>Implemented and maintained unit tests using Angular Jasmine.</li>
+                        <li>Utilized NgRx for state management.</li>
+                        <li>Identified, debugged, and resolved front-end issues.</li>
+                    </ul>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-8">
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Senior Software Engineer | Yondu, Inc.</h3>
+                    <p class="text-gray-600 mb-4 text-sm">April 2022 - December 2023</p>
+                    <ul class="list-disc list-inside text-gray-700 leading-relaxed">
+                        <li>Led front-end development for a diamon project in Singapore.</li>
+                        <li>Ensured web application responsiveness across devices.</li>
+                        <li>Implemented and maintained unit tests using Angular Jasmine.</li>
+                        <li>Utilized NgRx for state management.</li>
+                        <li>Collaborated with cross-functional teams in agile methodologies.</li>
+                        <li>Participated in code reviews.</li>
+                    </ul>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-8">
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Software Developer | Strong Will IT Solutions</h3>
+                    <p class="text-gray-600 mb-4 text-sm">June 2020 - January 2022</p>
+                    <ul class="list-disc list-inside text-gray-700 leading-relaxed">
+                        <li>Contributed to the development of a web application for Home Care providers.</li>
+                        <li>Assisted in building features for communication and data sharing.</li>
+                        <li>Implemented front-end components and user interfaces.</li>
+                        <li>Utilized Git for version control.</li>
+                        <li>Communicated a complex bug to a senior developer.</li>
+                    </ul>
+                </div>
             </div>
         </section>
 
-        <section class="mb-8">
-            <h2 class="text-2xl font-semibold text-gray-700 mb-4">Technical Skills</h2>
-            <div class="bg-white rounded-lg shadow-md p-6">
-                <ul class="list-disc list-inside text-gray-600 grid grid-cols-1 md:grid-cols-2 gap-2 blue-link">
-                    <li>Languages: HTML, CSS, JavaScript, TypeScript</li>
-                    <li>Frameworks/Libraries: Angular, React, NgRx, Tailwind CSS, Bootstrap</li>
-                    <li>Testing: Angular Jasmine</li>
-                    <li>Version Control: Git</li>
-                    <li>UI/UX Tools: Figma</li>
-                    <li>Note Taking / Productivity Systems: Notion, Obsidian</li>
-                    <li>Other: State Management, Responsive Web Design</li>
+        <section class="mb-12">
+            <h2 class="text-2xl font-semibold text-gray-900 mb-6">Technical Skills</h2>
+            <div class="bg-white rounded-lg shadow-md p-8">
+                <ul class="grid grid-cols-1 md:grid-cols-2 gap-4 text-gray-700">
+                    <li class="mb-2">
+                        <strong class="font-medium">Languages:</strong><br>
+                        HTML, CSS, JavaScript, TypeScript
+                    </li>
+                    <li class="mb-2">
+                        <strong class="font-medium">Frameworks/Libraries:</strong><br>
+                        Angular, React, NgRx, Tailwind CSS, Bootstrap
+                    </li>
+                    <li class="mb-2">
+                        <strong class="font-medium">Testing:</strong><br>
+                        Angular Jasmine
+                    </li>
+                    <li class="mb-2">
+                        <strong class="font-medium">Version Control:</strong><br>
+                        Git
+                    </li>
+                    <li class="mb-2">
+                        <strong class="font-medium">UI/UX Tools:</strong><br>
+                        Figma
+                    </li>
+                    <li class="mb-2">
+                        <strong class="font-medium">Productivity:</strong><br>
+                        Notion, Obsidian
+                    </li>
+                    <li class="mb-2">
+                        <strong class="font-medium">Other:</strong><br>
+                        State Management, Responsive Web Design
+                    </li>
                 </ul>
             </div>
         </section>
 
-        <section class="mb-8">
-            <h2 class="text-2xl font-semibold text-gray-700 mb-4">Education</h2>
-            <div class="bg-white rounded-lg shadow-md p-6">
-                <p class="text-gray-600 blue-link">Bachelor's Degree in Information Technology, Adamson University, Graduation Year: 2018</p>
+        <section class="mb-12">
+            <h2 class="text-2xl font-semibold text-gray-900 mb-6">Education</h2>
+            <div class="bg-white rounded-lg shadow-md p-8">
+                <p class="text-gray-700">
+                    <strong class="font-medium">Bachelor's Degree in Information Technology</strong>, Adamson University, 2018
+                </p>
             </div>
         </section>
 
         <section>
-            <h2 class="text-2xl font-semibold text-gray-700 mb-4">Contact</h2>
-            <div class="bg-white rounded-lg shadow-md p-6">
-                <p class="text-gray-600">Email: <a href="mailto:jjddeguzman@gmail.com" class="blue-link">jjddeguzman@gmail.com</a></p>
-                <p class="text-gray-600">LinkedIn: <a href="https://www.linkedin.com/in/jrcdgzmn/" class="text-blue-500 hover:underline blue-link">linkedin.com/in/jrcdgzmn/</a></p>
-                <p class="text-gray-600">Portfolio: <a href="https://jjddeguzman.github.io/" class="text-blue-500 hover:underline blue-link">jjddeguzman.github.io/</a></p>
-                <p class="text-gray-600 blue-link mt-4">Feel free to reach out to discuss collaborations, opportunities, or just to connect! 🚀</p>
+            <h2 class="text-2xl font-semibold text-gray-900 mb-6">Contact</h2>
+            <div class="bg-white rounded-lg shadow-md p-8">
+                <p class="text-gray-700">
+                    <strong>Email:</strong> <a href="mailto:jjddeguzman@gmail.com" class="blue-link">jjddeguzman@gmail.com</a>
+                </p>
+                <p class="text-gray-700 mt-2">
+                    <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/jrcdgzmn/" class="blue-link">linkedin.com/in/jrcdgzmn/</a>
+                </p>
+                <p class="text-gray-700 mt-2">
+                    <strong>Portfolio:</strong> <a href="https://jjddeguzman.github.io/" class="blue-link">jjddeguzman.github.io/</a>
+                </p>
+                <p class="text-gray-700 mt-6">
+                    Feel free to reach out! 🚀
+                </p>
             </div>
         </section>
     </div>
-    <footer class="bg-gray-200 text-gray-700 py-4 text-center mt-8">
+
+    <footer class="bg-gray-200 text-gray-600 py-6 text-center mt-12 rounded-t-lg">
         <p>© <span id="currentYear"></span> Jerico James D. De Guzman. All rights reserved.</p>
     </footer>
+
     <script>
         document.getElementById("currentYear").textContent = new Date().getFullYear();
     </script>
