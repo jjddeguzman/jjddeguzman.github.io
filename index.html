@@ -1,10 +1,273 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
-    <meta http-equiv="refresh" content="0; URL=/resume/" />
-    <title>Redirecting…</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jerico De Guzman | jrcdgzmn.dev</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+      /* Global Brand Blue for Strong Tags */
+      strong {
+        color: #2563eb;
+        font-weight: 700;
+      }
+      .tech-card:hover {
+        background-color: #2563eb;
+        color: #fff;
+        border-color: #2563eb;
+      }
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #cbd5e1;
+        border-radius: 10px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #94a3b8;
+      }
+    </style>
   </head>
-  <body>
-    <p>Redirecting to <a href="/resume/">/resume/</a></p>
+  <body
+    class="bg-slate-50 text-slate-900 font-sans antialiased overflow-x-hidden"
+  >
+    <nav
+      class="fixed w-full bg-white/90 backdrop-blur-md border-b border-slate-100 z-50"
+    >
+      <div
+        class="max-w-5xl mx-auto px-4 sm:px-6 py-4 flex justify-between items-center"
+      >
+        <span class="font-bold text-lg tracking-tight">
+          <span class="text-slate-900">jrcdgzmn</span
+          ><span class="text-blue-600">.dev</span>
+        </span>
+        <div
+          class="flex space-x-3 sm:space-x-6 text-[10px] sm:text-sm font-medium text-slate-600 uppercase tracking-wider"
+        >
+          <a href="#about" class="hover:text-blue-600 transition">About</a>
+          <a href="#tech" class="hover:text-blue-600 transition">Tech</a>
+          <a href="#projects" class="hover:text-blue-600 transition">Work</a>
+          <a href="#blog" class="hover:text-blue-600 transition">Blog</a>
+        </div>
+      </div>
+    </nav>
+
+    <header class="pt-32 pb-16 sm:pt-48 sm:pb-24 px-6">
+      <div class="max-w-5xl mx-auto">
+        <h1
+          class="text-4xl sm:text-6xl md:text-7xl font-extrabold mb-6 tracking-tighter text-slate-900"
+        >
+          Jerico De Guzman.
+        </h1>
+        <p
+          class="text-lg sm:text-xl text-slate-500 max-w-2xl leading-relaxed font-light"
+        >
+          <span class="text-blue-600 font-bold">Front-end Developer</span>
+          specializing in building clean, accessible, and high-performance web
+          experiences.
+        </p>
+      </div>
+    </header>
+
+    <section
+      id="about"
+      class="py-16 sm:py-24 bg-white px-6 border-y border-slate-100"
+    >
+      <div
+        class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 sm:gap-16"
+      >
+        <div>
+          <h2 class="text-xl sm:text-2xl font-bold mb-4 sm:mb-6 text-slate-800">
+            About Me
+          </h2>
+          <p class="text-slate-600 leading-relaxed mb-4 text-sm sm:text-base">
+            I specialize in modern JavaScript/TypeScript frameworks. My focus is
+            on
+            <strong>micro-frontends</strong>—designing systems where UI
+            components are independent, testable, and scalable.
+          </p>
+          <p class="text-slate-600 leading-relaxed text-sm sm:text-base">
+            I am a huge advocate for <strong>documentation</strong>. I love
+            brain-dumping and refining my technical knowledge using
+            <strong>Obsidian</strong>, treating my note-taking as a "second
+            brain."
+          </p>
+        </div>
+        <div>
+          <h2 class="text-xl sm:text-2xl font-bold mb-4 sm:mb-6 text-slate-800">
+            Outside Work
+          </h2>
+          <p class="text-slate-600 leading-relaxed text-sm sm:text-base">
+            I embrace a <strong>minimalist</strong> philosophy in both code and
+            life. When I'm not at my desk, I lean towards an
+            <strong>active lifestyle</strong>, though I'm a total
+            <strong>homebody</strong> at heart who finds peace in a
+            well-organized space.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="tech" class="py-16 sm:py-24 px-6 bg-slate-50">
+      <div class="max-w-5xl mx-auto">
+        <h2 class="text-xl sm:text-2xl font-bold mb-8 sm:mb-12 text-slate-800">
+          Tech Stack
+        </h2>
+        <div
+          class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 sm:gap-4"
+        >
+          <div
+            class="tech-card bg-white border border-slate-200 p-3 sm:p-4 rounded-xl text-center transition-all duration-300 cursor-default"
+          >
+            <span class="text-xs sm:text-sm font-semibold tracking-wide"
+              >Angular</span
+            >
+          </div>
+          <div
+            class="tech-card bg-white border border-slate-200 p-3 sm:p-4 rounded-xl text-center transition-all duration-300 cursor-default"
+          >
+            <span class="text-sm font-semibold tracking-wide">NgRx</span>
+          </div>
+          <div
+            class="tech-card bg-white border border-slate-200 p-3 sm:p-4 rounded-xl text-center transition-all duration-300 cursor-default"
+          >
+            <span class="text-sm font-semibold tracking-wide">TypeScript</span>
+          </div>
+          <div
+            class="tech-card bg-white border border-slate-200 p-3 sm:p-4 rounded-xl text-center transition-all duration-300 cursor-default"
+          >
+            <span class="text-sm font-semibold tracking-wide">JavaScript</span>
+          </div>
+          <div
+            class="tech-card bg-white border border-slate-200 p-3 sm:p-4 rounded-xl text-center transition-all duration-300 cursor-default"
+          >
+            <span class="text-sm font-semibold tracking-wide">Jasmine</span>
+          </div>
+          <div
+            class="tech-card bg-white border border-slate-200 p-3 sm:p-4 rounded-xl text-center transition-all duration-300 cursor-default"
+          >
+            <span class="text-sm font-semibold tracking-wide">HTML5</span>
+          </div>
+          <div
+            class="tech-card bg-white border border-slate-200 p-3 sm:p-4 rounded-xl text-center transition-all duration-300 cursor-default"
+          >
+            <span class="text-sm font-semibold tracking-wide">CSS3</span>
+          </div>
+          <div
+            class="tech-card bg-white border border-slate-200 p-3 sm:p-4 rounded-xl text-center transition-all duration-300 cursor-default"
+          >
+            <span class="text-sm font-semibold tracking-wide">Tailwind</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="projects"
+      class="py-16 sm:py-24 px-6 bg-white border-t border-slate-100"
+    >
+      <div class="max-w-5xl mx-auto">
+        <h2 class="text-xl sm:text-2xl font-bold mb-8 sm:mb-12 text-slate-800">
+          Featured Work
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <a
+            href="https://jjddeguzman.github.io/valentines/"
+            target="_blank"
+            class="group border border-slate-200 rounded-2xl p-6 sm:p-8 hover:border-blue-400 hover:bg-slate-50 transition-all w-full"
+          >
+            <h3
+              class="text-lg sm:text-xl font-bold mb-3 group-hover:text-blue-600 transition-colors"
+            >
+              Valentine's Interaction
+            </h3>
+            <p class="text-slate-500 mb-6 text-xs sm:text-sm leading-relaxed">
+              A personalized, interactive web experience built with custom logic
+              and CSS animations to celebrate a special occasion.
+            </p>
+            <div class="flex flex-wrap gap-2 sm:gap-4">
+              <span
+                class="text-[10px] sm:text-xs font-bold text-slate-400 border border-slate-100 px-2 py-1 rounded"
+                >HTML</span
+              >
+              <span
+                class="text-[10px] sm:text-xs font-bold text-slate-400 border border-slate-100 px-2 py-1 rounded"
+                >CSS</span
+              >
+              <span
+                class="text-[10px] sm:text-xs font-bold text-slate-400 border border-slate-100 px-2 py-1 rounded"
+                >JS</span
+              >
+            </div>
+          </a>
+
+          <a
+            href="https://jjddeguzman.github.io/resume"
+            target="_blank"
+            class="group border border-slate-200 rounded-2xl p-6 sm:p-8 hover:border-blue-400 hover:bg-slate-50 transition-all w-full"
+          >
+            <h3
+              class="text-lg sm:text-xl font-bold mb-3 group-hover:text-blue-600 transition-colors"
+            >
+              Online Resume
+            </h3>
+            <p class="text-slate-500 mb-6 text-xs sm:text-sm leading-relaxed">
+              A comprehensive digital version of my professional journey,
+              highlighting key roles, skills, and technical expertise.
+            </p>
+            <div class="flex flex-wrap gap-2 sm:gap-4">
+              <span
+                class="text-[10px] sm:text-xs font-bold text-slate-400 border border-slate-100 px-2 py-1 rounded"
+                >Resume</span
+              >
+              <span
+                class="text-[10px] sm:text-xs font-bold text-slate-400 border border-slate-100 px-2 py-1 rounded"
+                >GitHub Pages</span
+              >
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="blog"
+      class="py-16 sm:py-24 px-6 bg-slate-50 border-t border-slate-100"
+    >
+      <div class="max-w-5xl mx-auto text-center">
+        <h2 class="text-xl sm:text-2xl font-bold mb-4 text-slate-800">
+          Writing
+        </h2>
+        <p
+          class="text-sm sm:text-base text-slate-500 mb-8 sm:mb-12 max-w-lg mx-auto leading-relaxed"
+        >
+          Currently organizing my digital garden and Obsidian notes into
+          readable articles.
+        </p>
+        <div
+          class="inline-flex items-center px-4 sm:px-6 py-2 sm:py-3 border border-slate-200 rounded-full bg-white shadow-sm"
+        >
+          <span
+            class="flex h-2 w-2 rounded-full bg-blue-600 mr-2 sm:mr-3 animate-pulse"
+          ></span>
+          <span
+            class="text-[10px] sm:text-sm font-medium text-slate-600 tracking-wide uppercase"
+            >Coming Soon</span
+          >
+        </div>
+      </div>
+    </section>
+
+    <footer
+      class="py-12 sm:py-16 border-t border-slate-100 text-center text-slate-400 text-[10px] sm:text-xs tracking-widest uppercase"
+    >
+      <p>© 2026 jrcdgzmn.dev — Simple & Functional.</p>
+    </footer>
   </body>
 </html>
